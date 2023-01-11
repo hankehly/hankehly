@@ -7,20 +7,11 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>Hank Ehly</title>
     <!-- Font Awesome -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-      rel="stylesheet"
-    />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
     <!-- Google Fonts Roboto -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
     <!-- MDB -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css"
-      rel="stylesheet"
-    />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet"/>
     <!-- Custom styles -->
     <link rel="stylesheet" href="css/style.css" />
     <!-- TODO: Google Tag Manager -->
@@ -40,60 +31,8 @@
     <meta property="og:type" content="website">
 </head>
 <body>
-      <!--Main Navigation-->
-  <header>
-    <style>
-      /* Carousel styling */
-      #introCarousel,
-      .carousel-inner,
-      .carousel-item,
-      .carousel-item.active {
-        height: 100vh;
-      }
-
-      .carousel-item:nth-child(1) {
-        background-image: url('img/no-head.png');
-        background-repeat: no-repeat;
-        background-size: 1200px;
-        background-position: center center;
-      }
-
-      .carousel-item:nth-child(2) {
-        background-image: url('img/super.png');
-        background-repeat: no-repeat;
-        background-size: 1150px;
-        background-position: center center;
-      }
-
-      .carousel-item:nth-child(3) {
-        background-image: url('img/guitar.png');
-        background-repeat: no-repeat;
-        background-size: 1150px;
-        background-position: center center;
-      }
-
-      .carousel-item:nth-child(4) {
-        background-image: url('img/business.png');
-        background-repeat: no-repeat;
-        background-size: 1200px;
-        background-position: center center;
-      }
-
-      .carousel-item:nth-child(5) {
-        background-image: url('img/raincoat.png');
-        background-repeat: no-repeat;
-        background-size: 1100px;
-        background-position: center center;
-      }
-
-      /* Height for devices larger than 576px */
-      @media (min-width: 992px) {
-        #introCarousel {
-          margin-top: -58.59px;
-        }
-      }
-    </style>
-
+  <!--Main Navigation-->
+  <header id="header">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light d-none d-lg-block" style="z-index: 2000;">
       <div class="container-fluid">
@@ -161,10 +100,10 @@
     </nav>
     <!-- Navbar -->
 
-    <img src="img/animated_head.gif" alt="animated-head" class="head">
+    <img src="img/face-front.gif" alt="face" id="face">
 
     <!-- Carousel wrapper -->
-    <div id="introCarousel" class="carousel carousel-dark slide shadow-2-strong" data-mdb-ride="carousel">
+    <div id="introCarousel" class="carousel carousel-dark slide" data-mdb-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-mdb-target="#introCarousel" data-mdb-slide-to="0" class="active"></li>
@@ -221,11 +160,6 @@
               Hank is a highly-skilled and motivated Software Engineer with 8+ years' experience in full-stack web development and cloud infrastructure. He helps organizations build data systems using tools like Python, Airflow, Spark, Terraform, containers and public cloud (eg. AWS, GCP) services. He is a natural teacher with excellent communication skills and a passion for sharing knowledge. He is fluent in English and Japanese.
             </p>
             <p><strong>Skills</strong></p>
-            <!-- <p class="text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod itaque voluptate
-              nesciunt laborum incidunt. Officia, quam consectetur. Earum eligendi aliquam illum
-              alias, unde optio accusantium soluta, iusto molestiae adipisci et?
-            </p> -->
             <p align="left">
               <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a>
               <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" width="36" height="36" alt="TypeScript" /></a>

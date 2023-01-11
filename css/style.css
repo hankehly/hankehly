@@ -14,7 +14,7 @@
     color: black;
 }
 
-.head {
+#face {
     position: absolute;
     width: 220px;
     left: 50%;
@@ -27,4 +27,54 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Carousel styling */
+#introCarousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item.active {
+    height: 100vh;
+}
+
+.carousel-item:nth-child(1) {
+    background-image: url('../img/no-head.png');
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    background-position: center center;
+}
+
+.carousel-item:nth-child(2) {
+    background-image: url('../img/super.png');
+    background-repeat: no-repeat;
+    background-size: 1150px;
+    background-position: center center;
+}
+
+.carousel-item:nth-child(3) {
+    background-image: url('../img/guitar.png');
+    background-repeat: no-repeat;
+    background-size: 1150px;
+    background-position: center center;
+}
+
+.carousel-item:nth-child(4) {
+    background-image: url('../img/business.png');
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    background-position: center center;
+}
+
+.carousel-item:nth-child(5) {
+    background-image: url('../img/raincoat.png');
+    background-repeat: no-repeat;
+    background-size: 1100px;
+    background-position: center center;
+}
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+    #introCarousel {
+        margin-top: -58.59px;
+    }
 }
