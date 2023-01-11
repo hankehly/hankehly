@@ -19,7 +19,12 @@
     width: 220px;
     left: 50%;
     transform: translate(-51%, 20px) rotate(-3deg);
-    ;
     z-index: 99;
     bottom: 50%;
+}
+
+.anchor-button-icon-vertical-center-fix {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
