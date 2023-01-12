@@ -4,7 +4,7 @@ Hi 👋 My name is Hank Ehly
 Software Engineer
 -----------------
 
-I am Software Engineer with 8+ years of experience in full-stack web development and cloud infrastructure. I help organizations build cloud-based data systems with technologies such as Python, Airflow, Spark, Terraform and containers.
+I am Software Engineer with 8+ years of experience in full-stack web development and cloud infrastructure. I help organizations build cloud-based data systems with technologies such as Python, Airflow, Spark, Terraform and containers. I speak English and Japanese.
 
 * 🌍  I'm based in Tokyo
 * ✉️  You can contact me at [henry.ehly@gmail.com](mailto:henry.ehly@gmail.com)
