@@ -56,8 +56,6 @@ window.onpointermove = function (e) {
             const faceDirection = faceDirectionMap3x3[pos];
             const faceImage = "img/" + faceImageMap[faceDirection];
             faceEl.setAttribute("src", faceImage);
-            console.log(document.getElementById("header").getBoundingClientRect());
-            console.log("pageX: " + e.pageX + ", pageY: " + e.pageY);
         }
     }, 75);
 };
