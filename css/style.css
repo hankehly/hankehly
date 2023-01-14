@@ -36,6 +36,8 @@
 .carousel-item,
 .carousel-item.active {
     height: 100vh;
+    /* handle mobile safari menu bar */
+    height: 100svh;
 }
 
 .carousel-item:nth-child(1) {
