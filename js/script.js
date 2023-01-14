@@ -63,3 +63,11 @@ window.onpointermove = function (e) {
         }
     }, 75);
 };
+
+window.onload = function () {
+    const rootElement = document.querySelector("#introCarousel");
+    const viewPortH = rootElement.getBoundingClientRect().height;
+    const windowH = window.innerHeight;
+    const browserUiBarsH = viewPortH - windowH;
+    rootElement.style.height = `calc(100vh - ${browserUiBarsH}px)`;
+}
