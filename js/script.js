@@ -42,20 +42,24 @@ const faceImageMap = {
     "right": "face-right.png"
 };
 
+function setFaceToDefaultImage() {
+    const faceEl = document.getElementById("face");
+    const defaultImage = "img/" + faceImageMap["front"];
+    faceEl.setAttribute("src", defaultImage);
+}
+
+let timeoutId;
 window.onpointermove = function (e) {
     throttle(function () {
         const rect = document.getElementById("header").getBoundingClientRect();
-        const faceEl = document.getElementById("face");
-        const defaultImage = "img/" + faceImageMap["front"];
-        if (e.pageY > rect.height) {
-            if (faceEl.getAttribute("src") !== defaultImage) {
-                faceEl.setAttribute("src", defaultImage);
-            }
-        } else {
+        if (e.pageY < rect.height) {
+            const faceEl = document.getElementById("face");
             const pos = getSquarePositionInRect(rect, e.pageX, e.pageY, 3);
             const faceDirection = faceDirectionMap3x3[pos];
             const faceImage = "img/" + faceImageMap[faceDirection];
             faceEl.setAttribute("src", faceImage);
+            clearTimeout(timeoutId);
+            timeoutId = setTimeout(setFaceToDefaultImage, 3000);
         }
     }, 75);
 };
