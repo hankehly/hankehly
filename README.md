@@ -7,6 +7,7 @@ Software Engineer
 Software Engineer with 7+ years of experience in full-stack web development and cloud infrastructure. Proficient with Python, Airflow, SQL, Spark, SPA frameworks, cloud infrastructure design and container orchestration. Fluent in English and Japanese.
 
 * 🌍  I'm based in Tokyo
+* 🖥️  See my portfolio at [hankehly.com](http://hankehly.com)
 * ✉️  You can contact me at [henry.ehly@gmail.com](mailto:henry.ehly@gmail.com)
 * 🧠  I'm learning Raspberry Pi
 
