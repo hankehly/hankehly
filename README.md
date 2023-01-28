@@ -9,10 +9,9 @@ Software Engineer with 7+ years of experience in full-stack web development and 
 * 🌍  I'm based in Tokyo
 * 🖥️  See my portfolio at [hankehly.com](http://hankehly.com)
 * ✉️  You can contact me at [henry.ehly@gmail.com](mailto:henry.ehly@gmail.com)
-* 🧠  I'm learning Raspberry Pi
+* ⚡  I'm an [AWS Certified Solutions Architect - Associate](https://www.credly.com/badges/d040059c-f8d6-4041-9f0f-13738c4750d3/public_url)
 
 ### Skills
-
 
 <p align="left">
 <!-- languages -->
