@@ -63,3 +63,8 @@ window.onpointermove = function (e) {
         }
     }, 75);
 };
+
+document.addEventListener("DOMContentLoaded", function () {
+    // Update the copyright year automatically on page load
+    document.getElementById("copyright-fullyear").innerHTML = (new Date()).getFullYear().toString();
+});
