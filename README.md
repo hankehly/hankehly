@@ -4,7 +4,7 @@ Hi 👋 My name is Hank Ehly
 Software Engineer
 -----------------
 
-Software Engineer with 7+ years of experience in full-stack web development and cloud infrastructure. Proficient with Python, Airflow, SQL, Spark, SPA frameworks, cloud infrastructure design and container orchestration. Fluent in English and Japanese.
+I am a software engineer with 7+ years of experience in a variety of technologies, including full-stack web development, cloud infrastructure architecture, and data engineering. I have gained proficiency in various tools and frameworks, including Python, Apache Airflow, Apache Spark, Infrastructure as Code, container orchestration, and frontend/backend development. I speak English and Japanese and am committed to delivering high quality work.
 
 * 🌍  I'm based in Tokyo
 * 🖥️  See my portfolio at [hankehly.com](http://hankehly.com)
