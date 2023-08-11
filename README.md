@@ -1,22 +1,20 @@
 Hi 👋 My name is Hank Ehly
 ==========================
 
-Software Engineer
------------------
+Data Engineering Consultant
+---------------------------
 
-I am a software engineer with 7+ years of experience in a variety of technologies, including full-stack web development, cloud infrastructure architecture, and data engineering. I have gained proficiency in various tools and frameworks, including Python, Apache Airflow, Apache Spark, Infrastructure as Code, container orchestration, and frontend/backend development. I speak English and Japanese and am committed to delivering high quality work.
+I work as a Data Engineering Consultant at <a href="https://www.slalom.com/" target="_blank">Slalom, Inc.</a> With 8 years of experience in system development, I've had the chance to work on a wide range of tasks such as frontend/backend web application development, platform engineering, DevOps, data engineering and analytics system development. I speak English and Japanese and am dedicated to delivering high-quality work.
 
 * 🌍  I'm based in Tokyo
 * 🖥️  See my portfolio at [hankehly.com](http://hankehly.com)
 * ✉️  You can contact me at [henry.ehly@gmail.com](mailto:henry.ehly@gmail.com)
-* ⚡  I'm an [AWS Certified Solutions Architect - Associate](https://www.credly.com/badges/d040059c-f8d6-4041-9f0f-13738c4750d3/public_url)
 
 ### Skills
 
 <p align="left">
 <!-- languages -->
 <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a>
-<a href="https://go.dev/doc/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/go-colored.svg" width="36" height="36" alt="Go" /></a>
 <a href="https://www.php.net/" target="_blank" rel="noreferrer"><img src="img/php.png" width="36" height="36" alt="PHP" /></a>
 <a href="https://www.ruby-lang.org/" target="_blank" rel="noreferrer"><img src="img/ruby.png" width="36" height="36" alt="Ruby" /></a>
 <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" width="36" height="36" alt="TypeScript" /></a>
@@ -26,19 +24,20 @@ I am a software engineer with 7+ years of experience in a variety of technologie
 <!-- infra -->
 <a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" width="36" height="36" alt="Docker" /></a>
 <a href="https://podman.io/" target="_blank" rel="noreferrer"><img src="https://cdn-ak.f.st-hatena.com/images/fotolife/t/tnk4on/20210922/20210922053538.png" width="36" height="36" alt="Podman" /></a>
-<a href="https://kubernetes.io/" target="_blank" rel="noreferrer"><img src="https://public-constructor.com/wp-content/uploads/2018/08/kubernetes_logo.png" width="36" height="36" alt="Kubernetes" /></a>
+<a href="https://kubernetes.io/" target="_blank" rel="noreferrer"><img src="img/kubernetes-logo.png" width="36" height="36" alt="Kubernetes" /></a>
 <a href="https://aws.amazon.com/" target="_blank" rel="noreferrer"><img src="https://pronto-core-cdn.prontomarketing.com/2/wp-content/uploads/sites/1614/2019/07/21743298_1406722539365107_4308832733562613967_n.png" width="36" height="36" alt="Amazon Web Services" /></a>
 <a href="https://console.cloud.google.com" target="_blank" rel="noreferrer"><img src="https://img2.freepng.es/20190612/vok/kisspng-cloud-computing-google-cloud-platform-cloud-storag-google-cloud-logo-png-image-free-download-searchpn-5d01a5ae4d22e9.530730771560389038316.jpg" width="36" height="36" alt="Google Cloud Platform" /></a>
 <a href="https://www.terraform.io/" target="_blank" rel="noreferrer"><img src="https://brandeps.com/logo-download/T/Terraform-logo-vector-01.svg" width="36" height="36" alt="Terraform" /></a>
 <a href="https://www.ansible.com/" target="_blank" rel="noreferrer"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFxMUn8xvTFe_VyxKkZ2amISvULap6Lg0ZD7CwuPFfeA&s" width="36" height="36" alt="Ansible" /></a>
 <a href="https://docs.chef.io/ruby/" target="_blank" rel="noreferrer"><img src="https://www.clipartmax.com/png/middle/270-2709691_chef-opscode.png" width="36" height="36" alt="Chef" /></a>
 <!-- databases -->
+<a href="https://www.snowflake.com/" target="_blank" rel="noreferrer"><img src="img/snowflake-logo.png" width="36" height="36" alt="Snowflake" /></a>
 <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg" width="36" height="36" alt="MongoDB" /></a>
 <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg" width="36" height="36" alt="MySQL" /></a>
 <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg" width="36" height="36" alt="PostgreSQL" /></a>
 <!-- frameworks -->
 <a href="https://airflow.apache.org/" target="_blank" rel="noreferrer"><img src="https://airflow.apache.org/docs/apache-airflow/1.10.6/_images/pin_large.png" width="36" height="36" alt="Airflow" /></a>
-<a href="https://spark.apache.org/docs/latest/api/python/" target="_blank" rel="noreferrer"><img src="http://www.dataversity.net/wp-content/uploads/2015/06/spark-logo.png" width="36" height="36" alt="Spark" /></a>
+<a href="https://spark.apache.org/docs/latest/api/python/" target="_blank" rel="noreferrer"><img src="img/apache-spark-logo.png" width="72" height="36" alt="Spark" /></a>
 <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png" width="36" height="36" alt="Scikit-Learn" /></a>
 <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/firebase-colored.svg" width="36" height="36" alt="Firebase" /></a>
 <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/django-colored.svg" width="36" height="36" alt="Django" /></a>
@@ -67,11 +66,5 @@ I am a software engineer with 7+ years of experience in a variety of technologie
 <a href="https://qiita.com/hankehly" target="_blank" rel="noreferrer"><img src="https://cdn.qiita.com/assets/public/push_notification/image-qiitan-572179a3bbde375850422ea48b2b6272.png" width="32" height="32" /></a> 
 <a href="https://www.linkedin.com/in/hankehly" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a> 
 <a href="http://www.medium.com/@hankehly" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium.svg" width="32" height="32" /></a> 
-<a href="https://www.twitter.com/hankehly" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /></a>
+<a href="https://www.twitter.com/hankehly" target="_blank" rel="noreferrer"><img src="img/x-logo.jpg" width="32" height="32" /></a>
 </p>
-
-### Badges
-
-<b>My GitHub Stats</b>
-
-<a href="http://www.github.com/hankehly"><img src="https://github-readme-stats.vercel.app/api?username=hankehly&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="hankehly's GitHub stats" /></a>
