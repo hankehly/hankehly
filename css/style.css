@@ -81,3 +81,12 @@
         margin-top: -58.59px;
     }
 }
+
+.certs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.certs img {
+    width: 100px;
+}
