@@ -4,7 +4,7 @@ Hi 👋 My name is Hank Ehly
 Data Engineering Consultant
 ---------------------------
 
-I am a Data & Analytics consultant at <a href="https://www.slalom.com/" target="_blank">Slalom</a>. I have 8 years of experience in systems development, and have a wide range of technical experience including frontend/backend web application development, platform engineering, DevOps, data engineering and data analytics. I speak English and Japanese and am dedicated to delivering high-quality work.
+I am a Data & Analytics consultant at <a href="https://www.slalom.com/" target="_blank">Slalom</a>. I have 8 years of experience in systems development and a wide range of technical experience including frontend/backend web application development, platform engineering, DevOps, data engineering and data analytics. I speak English and Japanese and am dedicated to delivering high-quality work.
 
 * 🌍  I'm based in Tokyo
 * 🖥️  See my portfolio at [hankehly.com](http://hankehly.com)
