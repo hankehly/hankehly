@@ -175,8 +175,8 @@ class Component extends DCLogic {
     const {lang}=this.state, ja=lang==='ja';
     const banner=this.props.banner ?? 'brick';
     const time=new Intl.DateTimeFormat(ja?'ja-JP':'en-US',{hour:'2-digit',minute:'2-digit',timeZone:'Asia/Tokyo'}).format(new Date());
-    const t = ja ? {nameFull:'Hank Ehly',tagline:'東京のデータ＆アナリティクスコンサルタント。パイプラインとプラットフォームを作り、たまに曲も作ります。',email:'メール',time,welcome:'ハンクのホームページへようこそ！！',updated:'最終更新：2026年9月6日',coolLinks:'リンク集',visitor:'あなたは',bestViewed:'どのブラウザでも閲覧可能',homepage:'ホームページ',language:'言語：'}
-                 : {nameFull:'Hank Ehly',tagline:'Data & analytics consultant in Tokyo. I build pipelines and platforms, and the occasional song.',email:'Email',time,welcome:"Welcome to Hank's Homepage!!",updated:'Last updated: September 6, 2026',coolLinks:'Cool Links',visitor:'You are visitor #',bestViewed:'Viewable with any browser',homepage:'Homepage',language:'Language:'};
+    const t = ja ? {nameFull:'Hank Ehly',tagline:'東京のデータ＆アナリティクスコンサルタント。ウェブサイトのデザインも承ります。',email:'メール',time,welcome:'ハンクのホームページへようこそ！！',updated:'最終更新：2026年9月6日',coolLinks:'リンク集',visitor:'あなたは',bestViewed:'どのブラウザでも閲覧可能',homepage:'ホームページ',language:'言語：'}
+                 : {nameFull:'Hank Ehly',tagline:'Data & analytics consultant in Tokyo. I can also design your website.',email:'Email',time,welcome:"Welcome to Hank's Homepage!!",updated:'Last updated: September 6, 2026',coolLinks:'Cool Links',visitor:'You are visitor #',bestViewed:'Viewable with any browser',homepage:'Homepage',language:'Language:'};
     const links=[
       {label:'GitHub',href:'https://github.com/hankehly'},
       {label:'LinkedIn',href:'https://www.linkedin.com/in/hankehly'},
