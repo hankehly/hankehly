@@ -23,7 +23,8 @@ OUTPUT = ROOT / "index.html"
 FAVICON = ROOT / "img" / "favicon.png"
 
 TITLE = "Hank Ehly"
-DESCRIPTION = "Hank Ehly - Data & analytics consultant in Tokyo."
+DESCRIPTION = ("Data analytics consultant and software developer based in Japan. "
+               "Interests include jokes, music, running, ML, AI, electronics and electricity.")
 URL = "https://hankehly.com/"
 
 TEMPLATE_RE = re.compile(
