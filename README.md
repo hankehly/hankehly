@@ -1,6 +1,6 @@
 # Hank Ehly
 
-Data & analytics consultant in Tokyo.
+Data analytics consultant and software developer based in Japan.
 
 - Website: [hankehly.com](https://hankehly.com)
 - Email: [henry.ehly@gmail.com](mailto:henry.ehly@gmail.com)
