@@ -26,6 +26,43 @@ TITLE = "Hank Ehly"
 DESCRIPTION = ("Data analytics consultant and software developer based in Japan. "
                "Interests include jokes, music, running, ML, AI, electronics and electricity.")
 URL = "https://hankehly.com/"
+COUNTER = "https://abacus.jasoncameron.dev/hit/hankehly.com/visits"
+
+# The export seeds the visitor counter from localStorage, which makes it a
+# per-browser number dressed up as a site-wide one. We swap that back out for
+# the shared Abacus counter here rather than in the bundle, because the bundle
+# is overwritten by the next re-export.
+COUNTER_PATCHES = [
+    # Drop the localStorage seed; `visits` becomes state fetched at mount.
+    (
+        """    let booted = false, visits = 1;
+    try { booted = sessionStorage.getItem('hank95_booted') === '1'; } catch(e){}
+    try {
+      visits = Number(localStorage.getItem('hank95_visits') || 0) + 1;
+      localStorage.setItem('hank95_visits', String(visits));
+    } catch(e){}""",
+        """    let booted = false;
+    try { booted = sessionStorage.getItem('hank95_booted') === '1'; } catch(e){}""",
+    ),
+    # Start empty so the display shows a placeholder until the fetch lands.
+    (
+        "      tip: null, visits: visits + 1046,",
+        "      tip: null, visits: null,",
+    ),
+    # Register the hit once, right after the clock timer is installed.
+    (
+        "    }, 1000);\n",
+        "    }, 1000);\n"
+        f"    fetch('{COUNTER}')\n"
+        "      .then(r => r.json()).then(d => this.setState({ visits: d.value })).catch(() => {});\n",
+    ),
+    # The export assumed a number; restore the guard so a failed or in-flight
+    # request renders '------' instead of 'null'.
+    (
+        "      visits: String(st.visits).padStart(6, '0'),",
+        "      visits: st.visits == null ? '------' : String(st.visits).padStart(6, '0'),",
+    ),
+]
 
 TEMPLATE_RE = re.compile(
     r'(<script type="__bundler/template">)(.*?)(</script>)', re.DOTALL
@@ -49,6 +86,29 @@ def head_additions():
             f'<link rel="icon" href="data:image/png;base64,{favicon}">',
         ]
     )
+
+
+def restore_hit_counter(template):
+    """Swap the export's per-browser visit count for the shared Abacus counter.
+
+    If a future export already fetches the counter itself, there is nothing to
+    do -- that is the fix landing upstream, not a failure.
+    """
+    if COUNTER in template:
+        print("hit counter: already in the export, left alone")
+        return template
+
+    for old, new in COUNTER_PATCHES:
+        found = template.count(old)
+        if found != 1:
+            sys.exit(
+                f"{SOURCE.name}: hit-counter patch expected exactly one match for "
+                f"{old.splitlines()[0].strip()!r}, found {found}"
+            )
+        template = template.replace(old, new, 1)
+
+    print("hit counter: restored the Abacus counter")
+    return template
 
 
 def encode_template(template):
@@ -79,6 +139,7 @@ def main():
         )
 
     template = template.replace(ANCHOR, ANCHOR + "\n" + head_additions(), 1)
+    template = restore_hit_counter(template)
 
     built = (
         source[: match.start()]
